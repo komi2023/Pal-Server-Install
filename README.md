@@ -39,9 +39,9 @@
 在你的服务器上运行以下命令来安装和启动 幻兽帕鲁服务端：
 
 ```bash
-wget -O PalServerInstall.sh https://mirror.ghproxy.com/https://raw.githubusercontent.com/2lifetop/Pal-Server-Install/main/PalServerInstall.sh && chmod +x PalServerInstall.sh && ./PalServerInstall.sh
+wget -O PalServerInstall.sh https://mirror.ghproxy.com/https://raw.githubusercontent.com/komi2023/Pal-Server-Install/main/PalServerInstall.sh && chmod +x PalServerInstall.sh && ./PalServerInstall.sh
 ```
 
 
 
-![](https://image.xuehaiwu.com/2024/01/26/Termius_ZvlU3EAlxb.png)
+![](https://3o.hk/images/2024/01/27/palu123.png)
