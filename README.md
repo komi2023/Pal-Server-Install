@@ -4,10 +4,10 @@
 
 
 🔗 **教程地址**：
-[https://www.xuehaiwu.com/palworld-server/](https://www.xuehaiwu.com/palworld-server/)
+[https://www.palu123.com/](https://www.palu123.com/)
 
 🛠️ **在线生成服务器配置**：
-[https://www.xuehaiwu.com/Pal/](https://www.xuehaiwu.com/Pal/)
+[https://unlockfox.com/palu123/](https://unlockfox.com/palu123/)
 
 ## 📝 更新日志：
 
