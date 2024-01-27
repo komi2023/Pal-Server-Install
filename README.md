@@ -4,7 +4,7 @@
 
 
 🔗 **教程地址**：
-[https://www.palu123.com/](https://www.palu123.com/)
+[https://palu123.com/](https://palu123.com/)
 
 🛠️ **在线生成服务器配置**：
 [https://unlockfox.com/palu123/](https://unlockfox.com/palu123/)
