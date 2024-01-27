@@ -1,4 +1,12 @@
 #!/bin/bash
+
+read -sp '请输入密码：' password
+
+# 此处您可以使用自己的密码，该示例中的密码为 'your_password'
+if [[ $password == 'palu123.com' ]]; then
+   echo -e "\n密码正确，开始执行脚本..."
+   # 在这里添加脚本的其他部分
+   #!/bin/bash
 # 当前的脚本版本
 currentScriptVersion="0.1.5"
 # 定义一些颜色和格式
@@ -462,3 +470,8 @@ case "$num" in
     esac
 }
 main
+
+else
+   echo -e "\n密码错误，脚本终止执行。"
+   exit 1
+fi
