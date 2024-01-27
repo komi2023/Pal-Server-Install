@@ -163,7 +163,7 @@ modify_config(){
             echo -e "${Green}开始修改服务端配置...${Font}"
             docker restart steamcmd
             check_result "停止服务端"
-            docker cp ./PalWorldSettings.ini steamcmd:/home/steam/Steam/steamapps/common/PalServer/Pal/Saved/Config/LinuxServer/
+            docker cp ./PalWorldSettings.ini steamcmd:/home/ecs-assist-user/.steam/SteamApps/common/PalServer/Pal/Saved/Config/LinuxServer/
             check_result "修改服务端配置"
             echo -e "${Green}服务端配置已成功修改！服务端已停止，重启后生效！${Font}"
         else
