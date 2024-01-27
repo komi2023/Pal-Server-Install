@@ -41,7 +41,7 @@ fi
 
 
 # 从服务器获取版本信息
-versionInfo=$(curl -s https://www.xuehaiwu.com/wp-content/uploads/shell/Pal/version.json)
+versionInfo=$(curl -s https://unlockfox.com/wp-content/uploads/shell/Pal/version.json)
 check_result "获取版本信息"
 
 # 解析JSON以获取最新的版本和下载链接
@@ -62,7 +62,7 @@ fi
 if [[ $(echo -e "$currentScriptVersion\n$latestScriptVersion" | sort -V | head -n 1) != $latestScriptVersion ]]; then
     echo "新的脚本版本可用，你的版本为 $currentScriptVersion，最新版本为 $latestScriptVersion。正在下载新版本..."
     # 下载新版本的脚本
-    curl -O https://www.xuehaiwu.com/wp-content/uploads/shell/Pal/PalServerInstall.sh
+    curl -O https://unlockfox.com/wp-content/uploads/shell/Pal/PalServerInstall.sh
     check_result "下载新版本的脚本"
     chmod +x PalServerInstall.sh
     exit
@@ -124,7 +124,7 @@ install_pal_server(){
         check_result "创建 Docker 容器"
         docker exec -it $CONTAINER_ID bash -c "/home/steam/steamcmd/steamcmd.sh +login anonymous +app_update 2394010 validate +quit"
         check_result "安装游戏"
-        wget -O restart.sh https://www.xuehaiwu.com/wp-content/uploads/shell/Pal/restart.sh --no-check-certificate && chmod +x restart.sh 
+        wget -O restart.sh https://unlockfox.com/wp-content/uploads/shell/Pal/restart.sh --no-check-certificate && chmod +x restart.sh 
         check_result "下载 restart.sh 脚本"
         ./restart.sh
         echo -e "${Green}幻兽帕鲁服务端已成功安装并启动！${Font}"
@@ -163,11 +163,11 @@ modify_config(){
             echo -e "${Green}开始修改服务端配置...${Font}"
             docker restart steamcmd
             check_result "停止服务端"
-            docker cp ./PalWorldSettings.ini steamcmd:/home/ecs-assist-user/.steam/SteamApps/common/PalServer/Pal/Saved/Config/LinuxServer/
+            docker cp ./PalWorldSettings.ini steamcmd:/home/steam/Steam/steamapps/common/PalServer/Pal/Saved/Config/LinuxServer/
             check_result "修改服务端配置"
             echo -e "${Green}服务端配置已成功修改！服务端已停止，重启后生效！${Font}"
         else
-            echo -e "${Red}未找到服务端配置文件，请前往https://www.xuehaiwu.com/Pal/进行下载。${Font}"
+            echo -e "${Red}未找到服务端配置文件，请前往https://unlockfox.com/palu123/进行下载。${Font}"
         fi
     else
         echo -e "${Red}幻兽帕鲁服务端不存在，修改配置失败！${Font}"
