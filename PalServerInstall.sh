@@ -383,10 +383,11 @@ ovz_no
 install_docker
 clear
 echo -e "———————————————————————————————————————"
-echo -e "${Green}Linux VPS一键安装管理幻兽帕鲁服务端脚本${Font}"
+echo -e "${Green}阿里云ECS云服务器Linux系统(Debian 12.4 64位) 一键安装管理幻兽帕鲁服务端脚本${Font}"
 echo -e "${Green}脚本版本${currentScriptVersion}${Font}"
-echo -e "${Green}教程地址：https://www.xuehaiwu.com/palworld-server/${Font}"
-echo -e "${Green}服务器购买：https://curl.qcloud.com/WJYPYPoQ ${Font}"
+echo -e "${Green}教程地址：https://palu123.com/${Font}"
+echo -e "${Green}没有云服务器：3分钟搞定购买+部署：https://d.ipk.icu/8no7 ${Font}"
+echo -e "${Green}由帕鲁小哥发布  有使用建议欢迎联系V：paluxiaoge ${Font}"
 echo -e "${Green}1、安装幻兽帕鲁服务端${Font}"
 echo -e "${Green}2、启动幻兽帕鲁服务端${Font}"
 echo -e "${Green}3、停止幻兽帕鲁服务端${Font}"
