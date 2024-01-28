@@ -1,11 +1,3 @@
-#!/bin/bash
-
-read -sp '请输入密码：' password
-
-# 此处您可以使用自己的密码，该示例中的密码为 'your_password'
-if [[ $password == 'palu123.com' ]]; then
-   echo -e "\n密码正确，开始执行脚本..."
-   # 在这里添加脚本的其他部分
    #!/bin/bash
 # 当前的脚本版本
 currentScriptVersion="0.1.5"
@@ -395,7 +387,7 @@ echo -e "${Green}阿里云ECS云服务器Linux系统(Debian 12.4 64位) 一键�
 echo -e "${Green}脚本版本${currentScriptVersion}${Font}"
 echo -e "${Green}教程地址：https://palu123.com/${Font}"
 echo -e "${Green}没有云服务器：3分钟搞定购买+部署：https://d.ipk.icu/8no7 ${Font}"
-echo -e "${Green}由帕鲁小哥发布  有使用建议欢迎联系V：paluxiaoge ${Font}"
+echo -e "${Green}有任何问题请随时联系微信号paluxiaoge ${Font}"
 echo -e "${Green}1、安装幻兽帕鲁服务端${Font}"
 echo -e "${Green}2、启动幻兽帕鲁服务端${Font}"
 echo -e "${Green}3、停止幻兽帕鲁服务端${Font}"
@@ -407,10 +399,10 @@ echo -e "${Green}8、重启幻兽帕鲁服务端${Font}"
 echo -e "${Green}9、查看幻兽帕鲁服务端状态${Font}"
 echo -e "${Green}10、更新幻兽帕鲁服务端${Font}"
 echo -e "${Green}11、删除幻兽帕鲁服务端${Font}"
-echo -e "${Green}12、更新补丁版本${Font}"
+echo -e "${Green}12、更新补丁版本(建议使用优化内存泄露)${Font}"
 echo -e "${Green}13、导入幻兽帕鲁存档及配置${Font}"
 echo -e "${Green}14、导出幻兽帕鲁存档及配置${Font}"
-echo -e "${Green}15、退出脚本${Font}"
+echo -e "${Green}15、退出脚本-palu123.com${Font}"
 echo -e "———————————————————————————————————————"
 read -p "请输入数字 [1-15]:" num
 check_numeric_input $num
@@ -471,7 +463,3 @@ case "$num" in
 }
 main
 
-else
-   echo -e "\n密码错误，脚本终止执行。"
-   exit 1
-fi
