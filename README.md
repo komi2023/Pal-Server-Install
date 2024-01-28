@@ -44,4 +44,4 @@ wget -O PalServerInstall.sh https://mirror.ghproxy.com/https://raw.githubusercon
 
 
 
-![](https://3o.hk/images/2024/01/27/palu123.png)
+![](https://3o.hk/images/2024/01/28/palu123.png)
